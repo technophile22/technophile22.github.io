@@ -1,0 +1,26 @@
+[31-Jan-2020 12:05:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php:7
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php(7): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/cc9qa9vqym1t/public_html/testing/pro/registration/registration.php(2): require_once('/home/cc9qa9vqy...')
+#2 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php on line 7
+[31-Jan-2020 12:06:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php:7
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php(7): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/cc9qa9vqym1t/public_html/testing/pro/registration/registration.php(2): require_once('/home/cc9qa9vqy...')
+#2 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php on line 7
+[31-Jan-2020 12:06:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php:7
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php(7): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/cc9qa9vqym1t/public_html/testing/pro/registration/registration.php(2): require_once('/home/cc9qa9vqy...')
+#2 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php on line 7
+[31-Jan-2020 12:06:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php:7
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php(7): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/cc9qa9vqym1t/public_html/testing/pro/registration/registration.php(2): require_once('/home/cc9qa9vqy...')
+#2 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php on line 7
+[31-Jan-2020 13:07:35 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/cc9qa9vqym1t/public_html/testing/pro/registration/process.php on line 36
+[31-Jan-2020 13:07:40 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/cc9qa9vqym1t/public_html/testing/pro/registration/process.php on line 36

@@ -1,0 +1,98 @@
+[31-Jan-2020 12:05:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php:7
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php(7): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/cc9qa9vqym1t/public_html/testing/pro/registration/registration.php(2): require_once('/home/cc9qa9vqy...')
+#2 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php on line 7
+[31-Jan-2020 12:06:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php:7
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php(7): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/cc9qa9vqym1t/public_html/testing/pro/registration/registration.php(2): require_once('/home/cc9qa9vqy...')
+#2 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php on line 7
+[31-Jan-2020 12:06:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php:7
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php(7): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/cc9qa9vqym1t/public_html/testing/pro/registration/registration.php(2): require_once('/home/cc9qa9vqy...')
+#2 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php on line 7
+[31-Jan-2020 12:06:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php:7
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php(7): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/cc9qa9vqym1t/public_html/testing/pro/registration/registration.php(2): require_once('/home/cc9qa9vqy...')
+#2 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/testing/pro/registration/config.php on line 7
+[31-Jan-2020 13:07:35 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/cc9qa9vqym1t/public_html/testing/pro/registration/process.php on line 36
+[31-Jan-2020 13:07:40 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/cc9qa9vqym1t/public_html/testing/pro/registration/process.php on line 36
+[09-Feb-2020 20:29:47 UTC] PHP Notice:  Undefined index: firstname in /home/cc9qa9vqym1t/public_html/registration/process.php on line 8
+[09-Feb-2020 20:29:47 UTC] PHP Notice:  Undefined index: lastname in /home/cc9qa9vqym1t/public_html/registration/process.php on line 9
+[09-Feb-2020 20:29:47 UTC] PHP Notice:  Undefined index: email in /home/cc9qa9vqym1t/public_html/registration/process.php on line 10
+[09-Feb-2020 20:29:47 UTC] PHP Notice:  Undefined index: phone in /home/cc9qa9vqym1t/public_html/registration/process.php on line 11
+[09-Feb-2020 20:29:47 UTC] PHP Notice:  Undefined index: select_box in /home/cc9qa9vqym1t/public_html/registration/process.php on line 12
+[09-Feb-2020 20:29:47 UTC] PHP Notice:  Undefined index: gender in /home/cc9qa9vqym1t/public_html/registration/process.php on line 13
+[09-Feb-2020 20:29:47 UTC] PHP Notice:  Undefined index: accomodation in /home/cc9qa9vqym1t/public_html/registration/process.php on line 14
+[09-Feb-2020 20:29:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null in /home/cc9qa9vqym1t/public_html/registration/process.php:18
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/registration/process.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/registration/process.php on line 18
+[09-Feb-2020 20:29:57 UTC] PHP Notice:  Undefined index: firstname in /home/cc9qa9vqym1t/public_html/registration/process.php on line 8
+[09-Feb-2020 20:29:57 UTC] PHP Notice:  Undefined index: lastname in /home/cc9qa9vqym1t/public_html/registration/process.php on line 9
+[09-Feb-2020 20:29:57 UTC] PHP Notice:  Undefined index: email in /home/cc9qa9vqym1t/public_html/registration/process.php on line 10
+[09-Feb-2020 20:29:57 UTC] PHP Notice:  Undefined index: phone in /home/cc9qa9vqym1t/public_html/registration/process.php on line 11
+[09-Feb-2020 20:29:57 UTC] PHP Notice:  Undefined index: select_box in /home/cc9qa9vqym1t/public_html/registration/process.php on line 12
+[09-Feb-2020 20:29:57 UTC] PHP Notice:  Undefined index: gender in /home/cc9qa9vqym1t/public_html/registration/process.php on line 13
+[09-Feb-2020 20:29:57 UTC] PHP Notice:  Undefined index: accomodation in /home/cc9qa9vqym1t/public_html/registration/process.php on line 14
+[09-Feb-2020 20:29:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null in /home/cc9qa9vqym1t/public_html/registration/process.php:18
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/registration/process.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/registration/process.php on line 18
+[09-Feb-2020 20:33:34 UTC] PHP Notice:  Undefined index: firstname in /home/cc9qa9vqym1t/public_html/registration/process.php on line 8
+[09-Feb-2020 20:33:34 UTC] PHP Notice:  Undefined index: lastname in /home/cc9qa9vqym1t/public_html/registration/process.php on line 9
+[09-Feb-2020 20:33:34 UTC] PHP Notice:  Undefined index: email in /home/cc9qa9vqym1t/public_html/registration/process.php on line 10
+[09-Feb-2020 20:33:34 UTC] PHP Notice:  Undefined index: phone in /home/cc9qa9vqym1t/public_html/registration/process.php on line 11
+[09-Feb-2020 20:33:34 UTC] PHP Notice:  Undefined index: select_box in /home/cc9qa9vqym1t/public_html/registration/process.php on line 12
+[09-Feb-2020 20:33:34 UTC] PHP Notice:  Undefined index: gender in /home/cc9qa9vqym1t/public_html/registration/process.php on line 13
+[09-Feb-2020 20:33:34 UTC] PHP Notice:  Undefined index: accomodation in /home/cc9qa9vqym1t/public_html/registration/process.php on line 14
+[09-Feb-2020 20:33:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null in /home/cc9qa9vqym1t/public_html/registration/process.php:18
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/registration/process.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/registration/process.php on line 18
+[09-Feb-2020 20:34:00 UTC] PHP Notice:  Undefined index: firstname in /home/cc9qa9vqym1t/public_html/registration/process.php on line 8
+[09-Feb-2020 20:34:00 UTC] PHP Notice:  Undefined index: lastname in /home/cc9qa9vqym1t/public_html/registration/process.php on line 9
+[09-Feb-2020 20:34:00 UTC] PHP Notice:  Undefined index: email in /home/cc9qa9vqym1t/public_html/registration/process.php on line 10
+[09-Feb-2020 20:34:00 UTC] PHP Notice:  Undefined index: phone in /home/cc9qa9vqym1t/public_html/registration/process.php on line 11
+[09-Feb-2020 20:34:00 UTC] PHP Notice:  Undefined index: select_box in /home/cc9qa9vqym1t/public_html/registration/process.php on line 12
+[09-Feb-2020 20:34:00 UTC] PHP Notice:  Undefined index: gender in /home/cc9qa9vqym1t/public_html/registration/process.php on line 13
+[09-Feb-2020 20:34:00 UTC] PHP Notice:  Undefined index: accomodation in /home/cc9qa9vqym1t/public_html/registration/process.php on line 14
+[09-Feb-2020 20:34:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null in /home/cc9qa9vqym1t/public_html/registration/process.php:18
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/registration/process.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/registration/process.php on line 18
+[09-Feb-2020 20:58:53 UTC] PHP Notice:  Undefined index: firstname in /home/cc9qa9vqym1t/public_html/registration/process.php on line 8
+[09-Feb-2020 20:58:53 UTC] PHP Notice:  Undefined index: lastname in /home/cc9qa9vqym1t/public_html/registration/process.php on line 9
+[09-Feb-2020 20:58:53 UTC] PHP Notice:  Undefined index: email in /home/cc9qa9vqym1t/public_html/registration/process.php on line 10
+[09-Feb-2020 20:58:53 UTC] PHP Notice:  Undefined index: phone in /home/cc9qa9vqym1t/public_html/registration/process.php on line 11
+[09-Feb-2020 20:58:53 UTC] PHP Notice:  Undefined index: select_box in /home/cc9qa9vqym1t/public_html/registration/process.php on line 12
+[09-Feb-2020 20:58:53 UTC] PHP Notice:  Undefined index: gender in /home/cc9qa9vqym1t/public_html/registration/process.php on line 13
+[09-Feb-2020 20:58:53 UTC] PHP Notice:  Undefined index: accomodation in /home/cc9qa9vqym1t/public_html/registration/process.php on line 14
+[09-Feb-2020 20:58:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null in /home/cc9qa9vqym1t/public_html/registration/process.php:18
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/registration/process.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/registration/process.php on line 18
+[09-Feb-2020 20:59:20 UTC] PHP Notice:  Undefined index: firstname in /home/cc9qa9vqym1t/public_html/registration/process.php on line 8
+[09-Feb-2020 20:59:20 UTC] PHP Notice:  Undefined index: lastname in /home/cc9qa9vqym1t/public_html/registration/process.php on line 9
+[09-Feb-2020 20:59:20 UTC] PHP Notice:  Undefined index: email in /home/cc9qa9vqym1t/public_html/registration/process.php on line 10
+[09-Feb-2020 20:59:20 UTC] PHP Notice:  Undefined index: phone in /home/cc9qa9vqym1t/public_html/registration/process.php on line 11
+[09-Feb-2020 20:59:20 UTC] PHP Notice:  Undefined index: select_box in /home/cc9qa9vqym1t/public_html/registration/process.php on line 12
+[09-Feb-2020 20:59:20 UTC] PHP Notice:  Undefined index: gender in /home/cc9qa9vqym1t/public_html/registration/process.php on line 13
+[09-Feb-2020 20:59:20 UTC] PHP Notice:  Undefined index: accomodation in /home/cc9qa9vqym1t/public_html/registration/process.php on line 14
+[09-Feb-2020 20:59:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null in /home/cc9qa9vqym1t/public_html/registration/process.php:18
+Stack trace:
+#0 /home/cc9qa9vqym1t/public_html/registration/process.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/cc9qa9vqym1t/public_html/registration/process.php on line 18
